@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deloitte India</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.jpeg' %}">
+    <link rel="stylesheet" href="{% static 'login.css' %}">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="{% static 'images/Deloitte-Logo.png' %}" id="img" target="_main"></a>
+                <a href="/consultancyproject/about.html" target="_main" class="border">About Us</a>
+                <a href="/consultancyproject/services.html" target="_main" class="border">Services</a>
+                <a href="/consultancyproject/career.html" target="_main" class="border">Careers</a>
+            </div>
+            <div class="signup">
+                <a href="/consultancyproject/signup.html" class="border">Sign up</a>
+                <a href="/consultancyproject/login.html" class="border">Login</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form method="post">
+                {% csrf_token %}
+                <div class="form-section">
+                    <div class="login-box">
+                        <input type="text" class="name ele" placeholder="Username" name="name">
+                        <input type="password" class="password ele" placeholder="Password" name="password">
+                        <button class="clkbtn">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="{% static 'scripts.js' %}"></script>
+</body>
+</html>

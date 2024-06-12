@@ -1,0 +1,117 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{% static 'contact.css' %}"">
+	<title>Contact Us</title>
+	
+	<link rel="icon" type="image/x-icon" href="{% static 'images/favicon.jpeg'  %}">
+</head>
+
+<body>
+	<!-- Header section -->
+	<!-- <header>
+		<button class="hamburger" id="hamburger-icon">
+			<span onclick="openNavbar()"> ☰</span>
+		</button>
+		<div class="logo">Please put our Logo</div>
+		<nav id="nav-menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Enquiry</a></li>
+			</ul>
+		</nav>
+		<button class="reachUs-button">Call us</button>
+	</header> -->
+
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <!-- <img src="Deloitte-Logo.png" id="img"> -->
+                <a href="index.html"><img src="{% static 'images/Deloitte-Logo.png' %}" id="img" ></a>
+                <a href="/consultancyproject/about.html" target="_main" class="border">About Us</a>
+                <a href="/consultancyproject/services.html" target="_main" class="border">Services</a>
+                <a href="/consultancyproject/career.html" target="_main" class="border">Careers</a>
+            </div>
+            <div class="signup">
+                <a href="/consultancyproject/signup.html" class="border">Sign up</a>
+                <a href="/consultancyproject/login.html" class="border">Login</a>
+            </div>
+        </div>
+    </header>
+
+	<!-- banner section -->
+	<!-- <section class="banner">
+		<img src=
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fcontact-us-banner&psig=AOvVaw3jcYAhFbyK9vElQxnLxWHw&ust=1718001894929000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPixpf71zYYDFQAAAAAdAAAAABAE"
+			alt="Welcome to our Contact Us page">
+		<h1>Get in Touch With Us</h1>
+		<p>
+		We're here to answer any questions you may have.
+		</p>
+	</section> -->
+
+	<!-- Contact form -->
+	<section class="contact-form">
+		<div class="form-container">
+			<h2>Your Details</h2>
+			<form action="#" method="POST">
+
+				<label for="name">Name: </label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email: </label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="phone">Phone: </label>
+				<input type="tel" id="phone" name="phone">
+
+				<label for="message">Message: </label>
+				<textarea id="message" name="message" rows="4" required></textarea>
+
+				<button type="submit" class="submit-button">Submit</button>
+			</form>
+		</div>
+	</section>
+
+	<!-- Company contact info -->
+	<section class="contact-info">
+		<h2>Contact Information</h2>
+		<address>
+			Deloitte<br>
+			123 Main Street<br>
+			City, State Zip Code<br>
+			Phone: 123-456-7890<br>
+			Email: deloitte@gmail.com
+		</address>
+	</section>
+
+	<!-- <div class="icons">
+		<a href="#"><i class="fa-brands fa-facebook"></i></a>
+	</div> -->
+
+	<!-- Footer section -->
+	<!-- <footer>
+		<p>
+		© 2023 Your Company. All rights reserved.
+		</p>
+	</footer> -->
+
+    <footer>
+        <div class="foot">
+            <p>&copy;  2023 Deloitte Touche Tohmatsu India LLP</p>
+                <a href="/consultancyproject/contact.html">Contact Us</a>
+                <br><br>
+                <a href="#blog">Blog</a>
+                
+        </div>
+    </footer>
+
+	<script src="{% static 'contact1.js' %}"></script>
+</body>
+
+</html>

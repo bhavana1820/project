@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.jpeg'  %}">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <!-- <img src="Deloitte-Logo.png" id="img"> -->
+                <a href="index.html" ><img src="{% static 'images/Deloitte-Logo.png' %}" id="img" target = "_main" ></a>
+                <a href="/consultancyproject/about.html" target="_main" class="border">About Us</a>
+                <a href="/consultancyproject/services.html" target="_main" class="border">Services</a>
+                <a href="/consultancyproject/career.html" target="_main" class="border">Careers</a>
+            </div>
+            <div class="signup">
+                <a href="/consultancyproject/signup.html" class="border">Sign up</a>
+                <a href="/consultancyproject/login.html" class="border">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <h2>Technology</h2>
+        <p>IT/Technology Consulting – Deloitte Technology Professionals <br> around the World Help Clients Resolve their Most Critical Information<br> and Technology Challenges.</p>
+    </div>
+
+    <div class="info">
+        <p>Deloitte's technology consultancy, a division of Deloitte Touche Tohmatsu Limited, has evolved significantly since its inception. Established in 1845, Deloitte initially focused on auditing and accounting. Over time, recognizing the growing influence of technology, Deloitte expanded its services. In the 1990s, amid the tech boom, Deloitte began offering comprehensive technology consulting services, addressing the increasing needs for IT strategy, systems integration, and data analytics. The acquisition of firms like Monitor Group in 2013 and the establishment of Deloitte Digital in 2012 marked its commitment to digital transformation and innovation. Today, Deloitte Technology Consulting is renowned for its expertise in cloud computing, cybersecurity, artificial intelligence, and blockchain, serving a wide array of industries globally. This transformation has positioned Deloitte as a leader in technology consultancy, blending deep industry knowledge with cutting-edge technological solutions to help clients navigate the complexities of the digital age.</p>
+        <img src="{% static 'images/deloitte.webp' %}">
+    </div>
+
+    <div class="missions">
+        <h3>Mission</h3>
+        <p>Deloitte's mission is to make an impact that matters by delivering high-quality, innovative, and value-driven solutions to clients. We aim to empower our clients through strategic insights and services that enhance their business performance, while fostering a culture of collaboration, integrity, and excellence within our organization.</p>
+        
+        <h3>Vision</h3>
+        <p>Our vision is to be the premier global professional services firm, known for providing exceptional client service and fostering an inclusive environment where diverse talent thrives. We aspire to shape the future of business and society by driving sustainable growth and making meaningful contributions to our communities and stakeholders.</p>
+        
+        <h3>Core Values</h3>
+        <ul>At Deloitte, our core values are:
+            <li><b>Integrity:</b> Upholding the highest ethical standards and accountability in all our actions.</li>
+            <li><b>Commitment to Clients: </b>Delivering exceptional service and value, always putting clients first.</li>
+            <li><b>Innovation: </b>Encouraging creativity and forward-thinking solutions to drive progress.</li>
+            <li><b>Diversity and Inclusion:</b> Fostering a culture where all individuals feel valued and respected.</li>
+            <li><b>Collaboration:</b> Working together across teams, borders, and disciplines to achieve shared goals.</li>
+        </ul>
+    </div>
+
+    <div class="mem-profiles">
+        <div class="dan">
+            <img src="{% static 'images/dan.jpeg'  %}" alt="Dan Helfrich">
+            <h4>Dan Helfrich</h4>
+            <p><b>Position:</b> Chair & CEO, Deloitte Consulting LLP</p>
+            <p><b>Bio: </b>Dan leads over 80,000 professionals at Deloitte Consulting LLP, focusing on innovative and purpose-driven leadership. With more than 20 years of experience, he promotes an inclusive culture and continuous innovation, encouraging collaboration and modern problem-solving approaches.</p>
+        </div>
+
+        <div class="christina">
+            <img src="{% static 'images/christina.jpeg'  %}" alt="Christina Bieniek">
+            <h4>Christina Bieniek</h4>
+            <p><b>Position: </b>Deputy Chief Executive Officer, Deloitte Consulting LLP</p>
+            <p><b>Bio: </b>Christina is responsible for integrating teams and driving growth across Deloitte Consulting's various offerings and industries. She focuses on strategic advising and delivering high-value results to major clients.</p>
+        </div>
+
+        <div class="dounia">
+            <img src="{% static 'images/dounia.jpeg' %}" alt="Dounia Senawi">
+            <h4>Dounia Senawi</h4>
+            <p><b>Position: </b>Chief Commercial Officer, Deloitte Consulting LLP</p>
+            <p><b>Bio: </b>Dounia leads Deloitte Consulting's go-to-market efforts, integrating sales, marketing, and alliances to drive profitable growth. She connects diverse teams to create value and optimize operations for clients.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot">
+            <p>&copy;  2023 Deloitte Touche Tohmatsu India LLP</p>
+                <a href="/consultancyproject/contact.html">Contact Us</a>
+                <br><br>
+                <a href="#blog">Blog</a>
+                
+        </div>
+    </footer>
+
+</body>
+</html>

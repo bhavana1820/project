@@ -1,0 +1,156 @@
+*{
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:150px;
+} */
+
+#img{
+    height:70px;
+    width:150px;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.border{
+    border:1.5px solid transparent;
+    padding: 1rem;
+}
+
+.border:hover{
+    /* border:1.5px solid white;
+    border-radius: 10px; */
+    background-color: #0dac30;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.intro{
+    text-align: center;
+    margin:50px;
+    margin-bottom: 100px;
+}
+
+.intro p{
+    font-size: 1.4rem;
+}
+
+.info{
+    margin:50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* font-size: 1.2rem; */
+}
+
+img{
+    margin-left: 50px;
+    height:320px;
+    width:470px;
+}
+
+.missions{
+    margin:50px;
+    /* font-size: 1.4rem; */
+}
+
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 10px solid #d15454;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+
+cite {
+    font-size: 0.8em;
+    color: #d15454;
+}
+
+
+/* .img-cases{
+    display: flex;
+    justify-content: space-around; 
+} */
+
+
+.mem-profiles{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.dan{
+    height: 300px;
+    width: 300px;
+    overflow:auto;
+}
+
+.dan img{
+    height: 150px;
+    width: 150px;
+}
+
+.christina{
+    height: 300px;
+    width: 300px;
+    overflow:auto;
+}
+
+.christina img{
+    height: 150px;
+    width: 150px;
+}
+
+.dounia{
+    height: 300px;
+    width: 300px;
+    overflow:auto;
+}
+
+.dounia img{
+    height: 150px;
+    width: 150px;
+}
+
+.foot{
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+    text-align:center;
+    margin-top: 50px;
+}
+
+.foot a{
+    color:#fff;
+    text-decoration: none;
+    margin:100px;
+}
